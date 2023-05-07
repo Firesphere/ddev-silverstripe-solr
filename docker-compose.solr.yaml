@@ -70,7 +70,7 @@ services:
 
     # The odd need to use $$SOLR_CORENAME here is explained in
     # https://stackoverflow.com/a/48189916/215713
-    entrypoint:  'bash -c "VERBOSE=yes docker-entrypoint.sh solr-precreate $${SOLR_CORENAME:-dev} /solr-conf"'
+    entrypoint:  'bash -c "VERBOSE=yes docker-entrypoint.sh"'
 
     external_links:
       - "ddev-router:${DDEV_SITENAME}.${DDEV_TLD}"
