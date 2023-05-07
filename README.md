@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This repository allows you to quickly install Apache Solr for Silverstripe 4+ into a [Ddev](https://ddev.readthedocs.io) project using just `ddev get ddev/ddev-drupal9-solr`. It uses the [documentation for `firesphere/solr-search`](https://firesphere.github.io/solr-docs).
+This repository allows you to quickly install Apache Solr for Silverstripe 4+ into a [Ddev](https://ddev.readthedocs.io) project using just `ddev get firesphere/ddev-silverstripe-solr`. It uses the [documentation for `firesphere/solr-search`](https://firesphere.github.io/solr-docs).
 
 ## Installation on Silverstripe
 
